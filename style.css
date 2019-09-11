@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+#header{
+    background-color: orangered;
+    margin-top: -60px;
+    overflow: hidden;
+    padding-bottom: 0px;
+}
+#header .flex-container{
+        margin-top: 0px;
+       display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+nav{
+    background-color: rgba(0,0,0,0.05);
+    margin-top: -30px;
+}
+nav li:hover{
+    border-bottom: 2px solid orangered; 
+}
+
+/* bread crumbs */
+#bccont{
+    background-color: #fff;
+    margin-top: 30px;
+}
+
+ul.breadcrumb {
+  padding: 10px 0px;
+  list-style: none;
+  background-color:#fff;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+
+#contactdesc{
+    background-color: #fff;
+}
+#contactdesc h3{
+    color: orangered;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+
+#contact{
+    margin-top: 50px;
+}
+#contact form input{
+    background-color: rgba(0,0,0,0.05);
+}
+#contact form textarea{
+    background-color: rgba(0,0,0,0.05);
+}
+#contact .col-sm-6 i{
+    font-size: 20pt;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
